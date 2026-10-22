@@ -1,0 +1,25 @@
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore localized environment settings
+.env
+.venv
+env/
+venv/
+.pytest_cache/
+
+# Ignore Jupyter Notebook checkouts
+.ipynb_checkpoints/
+
+# 🚨 CRITICAL: Ignore heavy machine learning models and tracking binaries
+*.joblib
+*.pkl
+*.pkl.z
+*.pb
+*.onnx
+*.h5
+
+# Ignore raw data files and batch processing sheets
+*.csv
+*.xlsx
